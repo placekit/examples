@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "description": "Simple address search request with ESM",
+  "keywords": [
+    "vanilla",
+    "node"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@placekit/client-js": "^2.2.0"
+  }
+}

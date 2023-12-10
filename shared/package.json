@@ -1,0 +1,13 @@
+{
+  "name": "shared",
+  "private": true,
+  "exports": {
+    "./*": {
+      "import": "./*",
+      "require": "./*"
+    }
+  },
+  "files": [
+    "."
+  ]
+}

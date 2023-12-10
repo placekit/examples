@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "description": "Simple address search request",
+  "keywords": [
+    "typescript",
+    "node"
+  ],
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "dependencies": {
+    "@placekit/client-js": "^2.2.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2"
+  }
+}

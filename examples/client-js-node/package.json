@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "description": "Simple address search request",
+  "keywords": [
+    "vanilla",
+    "node"
+  ],
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@placekit/client-js": "^2.2.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "name": "@placekit/examples",
+  "author": "PlaceKit <support@placekit.io>",
+  "description": "PlaceKit implementation examples",
+  "license": "MIT",
+  "homepage": "https://github.com/placekit/examples#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/placekit/examples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/placekit/examples/issues"
+  },
+  "workspaces": [
+    "shared",
+    "examples/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "build:index": "node build-index.js",
+    "lint": "eslint .",
+    "format": "prettier . -w --log-level silent"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.4.16",
+    "dotenv": "^16.3.1",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.0",
+    "yaml": "^2.3.4"
+  }
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Basic address autocomplete with PlaceKit Autocomplete JS from CDN</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@placekit/autocomplete-js@2.1.6/dist/placekit-autocomplete.min.css"
+    />
+    <style>
+      body {
+        padding: 4rem;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+      }
+      .pka-input {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <input
+        type="search"
+        name="place"
+        placeholder="Search place..."
+        class="pka-input"
+        id="placekit-input"
+      />
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@placekit/autocomplete-js@2.1.6"></script>
+    <script type="module">
+      // using `type="module"` just to be able to access `import.meta.env`
+      // you could call `placekitAutocomplete('<your-public-api-key>')` directly
+      const pka = placekitAutocomplete(import.meta.env.VITE_PLACEKIT_API_KEY, {
+        target: '#placekit-input',
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "description": "Address search Express API route",
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@placekit/client-js": "^2.2.0",
+    "express": "^4.18.2"
+  }
+}

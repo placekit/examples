@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "description": "Global city search",
+  "keywords": [
+    "vanilla"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@placekit/autocomplete-js": "^2.1.6"
+  }
+}

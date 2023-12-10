@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "description": "Custom address autocomplete with HeadlessUI Vue",
+  "keywords": [
+    "vue"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.0.18",
+    "@placekit/client-js": "^2.2.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4"
+  }
+}

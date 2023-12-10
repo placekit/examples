@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# misc
+.DS_Store
+/demos
+/NOTES.md
+
+# local env files
+.env*.local
+
+# dependencies
+node_modules
+
+# log files
+*.log*
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# cache & build
+dist
+build
+.svelte-kit
+.vercel
+.output
