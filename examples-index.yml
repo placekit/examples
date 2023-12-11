@@ -3,140 +3,140 @@ url: https://github.com/placekit/examples
 author: PlaceKit <support@placekit.io>
 examples:
   - slug: autocomplete-js-address-form
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-js-address-form
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-js-address-form
     name: Auto-fill form with address autocomplete
     env:
       - vanilla
   - slug: autocomplete-js-basic
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-js-basic
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-js-basic
     name: Basic address autocomplete
     env:
       - vanilla
   - slug: autocomplete-js-cdn
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-js-cdn
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-js-cdn
     name: Basic address autocomplete
     env:
       - cdn
       - vanilla
   - slug: autocomplete-js-cities
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-js-cities
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-js-cities
     name: Global city search
     env:
       - vanilla
   - slug: autocomplete-js-countries
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-js-countries
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-js-countries
     name: Countries search
     env:
       - vanilla
   - slug: autocomplete-js-countries-whitelist
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-js-countries-whitelist
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-js-countries-whitelist
     name: Address autocomplete with countries whitelist
     env:
       - vanilla
   - slug: autocomplete-js-geolocation
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-js-geolocation
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-js-geolocation
     name: Address autocomplete with user's geolocation
     env:
       - vanilla
   - slug: autocomplete-js-leaflet
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-js-leaflet
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-js-leaflet
     name: Address search on map with Leaflet
     env:
       - leaflet
       - vanilla
   - slug: autocomplete-js-svelte
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-js-svelte
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-js-svelte
     name: Svelte autocomplete component
     env:
       - svelte
   - slug: autocomplete-js-typescript
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-js-typescript
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-js-typescript
     name: Address autocomplete with user's geolocation
     env:
       - typescript
       - vanilla
   - slug: autocomplete-js-vue
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-js-vue
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-js-vue
     name: Vue autocomplete component
     env:
       - vue
   - slug: autocomplete-react-address-form
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-react-address-form
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-react-address-form
     name: Auto-fill form with address autocomplete
     env:
       - react
   - slug: autocomplete-react-basic
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-react-basic
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-react-basic
     name: Basic address autocomplete
     env:
       - react
   - slug: autocomplete-react-cities
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-react-cities
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-react-cities
     name: Global city search
     env:
       - react
   - slug: autocomplete-react-countries
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-react-countries
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-react-countries
     name: Countries search
     env:
       - react
   - slug: autocomplete-react-countries-whitelist
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-react-countries-whitelist
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-react-countries-whitelist
     name: Address autocomplete with countries whitelist
     env:
       - react
   - slug: autocomplete-react-leaflet
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-react-leaflet
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-react-leaflet
     name: Address search on map with Leaflet
     env:
       - leaflet
       - react
   - slug: autocomplete-react-react-hook-form
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-react-react-hook-form
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-react-react-hook-form
     name: Auto-fill form with address autocomplete in React Hook Form
     env:
       - react
   - slug: autocomplete-react-typescript
-    url: https:/github.com/placekit/examples/tree/main/examples/autocomplete-react-typescript
+    url: https://github.com/placekit/examples/tree/main/examples/autocomplete-react-typescript
     name: Auto-fill form with address autocomplete
     env:
       - react
       - typescript
   - slug: client-js-algolia-autocomplete
-    url: https:/github.com/placekit/examples/tree/main/examples/client-js-algolia-autocomplete
+    url: https://github.com/placekit/examples/tree/main/examples/client-js-algolia-autocomplete
     name: Custom address autocomplete with Algolia Autocomplete
     env:
       - vanilla
   - slug: client-js-headlessui-react
-    url: https:/github.com/placekit/examples/tree/main/examples/client-js-headlessui-react
+    url: https://github.com/placekit/examples/tree/main/examples/client-js-headlessui-react
     name: Custom address autocomplete with HeadlessUI React
     env:
       - react
   - slug: client-js-headlessui-vue
-    url: https:/github.com/placekit/examples/tree/main/examples/client-js-headlessui-vue
+    url: https://github.com/placekit/examples/tree/main/examples/client-js-headlessui-vue
     name: Custom address autocomplete with HeadlessUI Vue
     env:
       - vue
   - slug: client-js-node
-    url: https:/github.com/placekit/examples/tree/main/examples/client-js-node
+    url: https://github.com/placekit/examples/tree/main/examples/client-js-node
     name: Simple address search request
     env:
       - node
       - vanilla
   - slug: client-js-node-esm
-    url: https:/github.com/placekit/examples/tree/main/examples/client-js-node-esm
+    url: https://github.com/placekit/examples/tree/main/examples/client-js-node-esm
     name: Simple address search request with ESM
     env:
       - node
       - vanilla
   - slug: client-js-node-express
-    url: https:/github.com/placekit/examples/tree/main/examples/client-js-node-express
+    url: https://github.com/placekit/examples/tree/main/examples/client-js-node-express
     name: Address search Express API route
     env:
       - express
       - node
   - slug: client-js-node-typescript
-    url: https:/github.com/placekit/examples/tree/main/examples/client-js-node-typescript
+    url: https://github.com/placekit/examples/tree/main/examples/client-js-node-typescript
     name: Simple address search request
     env:
       - node

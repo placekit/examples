@@ -14,7 +14,7 @@ const output = {
 };
 
 const examplesPath = 'examples';
-const baseURL = path.join(repoURL.href, 'tree/main', examplesPath);
+const baseURL = [repoURL.href, 'tree/main', examplesPath].join('/');
 
 for (const exampleDir of fs.readdirSync(examplesPath, { withFileTypes: true })) {
   if (exampleDir.isDirectory()) {
@@ -27,7 +27,7 @@ for (const exampleDir of fs.readdirSync(examplesPath, { withFileTypes: true })) 
         const packageJSON = JSON.parse(packageRaw);
         output.examples.push({
           slug: exampleDir.name,
-          url: path.join(baseURL, exampleDir.name),
+          url: [baseURL, exampleDir.name].join('/'),
           name: packageJSON.description,
           env: packageJSON.keywords.sort(),
         });
