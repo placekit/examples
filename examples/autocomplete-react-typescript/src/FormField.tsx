@@ -1,10 +1,7 @@
 import { forwardRef, useId } from 'react';
 
-type IFormFieldProps = {
+type IFormFieldProps = React.InputHTMLAttributes<HTMLInputElement> & {
   label: string;
-  id?: string;
-  className?: string;
-  [key: string]: any;
 };
 
 const FormField = forwardRef(
